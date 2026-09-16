@@ -5,7 +5,7 @@ export const botConfig = {
   // BOT PRESENCE (what users see under the bot name)
   // =========================
   // `status` options:
-  // - "ill wait forever untill you love me again."    = green dot
+  // - "online"    = green dot
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
@@ -24,8 +24,8 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        state: "ill wait forever untill you love me again.",     // this is what people actually see
+        type: 3,               // Custom
       },
     ],
   },
