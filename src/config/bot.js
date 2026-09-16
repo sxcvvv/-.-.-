@@ -5,7 +5,7 @@ export const botConfig = {
   // BOT PRESENCE (what users see under the bot name)
   // =========================
   // `status` options:
-  // - "online"    = green dot
+  // - "ill wait forever untill you love me again."    = green dot
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#ffe6fd",
+      secondary: "#ffe6fd",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
